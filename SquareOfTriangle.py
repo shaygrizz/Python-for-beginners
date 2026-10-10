@@ -1,6 +1,7 @@
 a = int(input())
-
-if a % 2 == 0:
-    print("Even")
+if a <= 0:
+    print("Invalid input. Please enter a positive integer.")
 else:
-    print("Odd")
+    area = (a * a) / 2
+    print("The area of the triangle is:", area)
+    
