@@ -16,7 +16,7 @@ maximum = max(a, b, c)
 minimum = min(a, b, c)
 middle = a + b + c - maximum - minimum
 
-# Проверяем условие
+# Проверяем условиe
 if maximum - minimum == middle:
     print('Число интересное')
 else:
